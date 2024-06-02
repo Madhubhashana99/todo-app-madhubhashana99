@@ -2,13 +2,14 @@
 import React from 'react';
 import Sidebar from './Components/Sidebar';
 import './App.css';
+import Navigation from './Components/Navigation';
 
 function App() {
   return (
     <div className="App">
       <Sidebar />
       <div className="content">
-        {/* Your main content goes here */}
+       <Navigation/>
       </div>
     </div>
   );
