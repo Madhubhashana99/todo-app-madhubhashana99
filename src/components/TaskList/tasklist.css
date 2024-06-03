@@ -1,0 +1,39 @@
+/* Task lists */
+.tasks-list{
+    width: 656px !important;
+  }
+
+  .pagination li {
+    margin-right: 5px; /* Adjust as needed */
+  }
+  
+  .pagination .page-link {
+    padding: 0.5rem 1rem; /* Adjust as needed */
+  }
+  
+  /* Add this CSS to your stylesheet */
+.pagination .page-item.active .page-link {
+    background: rgba(51, 7, 79, 1);
+    color: #fff; 
+  }
+  
+  .pagination .page-item .page-link.current-page {
+    color: rgba(51, 7, 79, 1) !important; 
+  }
+  
+  .pagination .page-link {
+    padding: 0.5rem 1rem; /* Adjust as needed */
+  }
+  
+  .pagination .page-link:hover {
+    text-decoration: none;
+  }
+  
+  .pagination .page-link svg {
+    fill: rgba(51, 7, 79, 1) !important; 
+  }
+  
+  .pagination .page-link:hover svg {
+    fill: rgba(51, 7, 79, 1) !important;
+  }
+  
