@@ -39,8 +39,8 @@ function TaskList() {
       <div>
         <img src={priorityIcons[task.priority]} alt={`${task.priority} priority Icon`} className="task-icon" /> {task.todo}
       </div>
-      <span className={`badge ${task.completed ? 'bg-success' : 'bg-secondary'} ${task.completed ? 'opacity-50' : ''}`}>
-        {task.completed ? 'Approved' : 'New'}
+      <span className={`badge ${task.completed ? 'bg-success' : 'bg-secondary'} ${task.completed ? 'opacity-75' : ''}`}>
+        {task.completed ? 'Done' : 'New'}
       </span>
     </li>
   ));

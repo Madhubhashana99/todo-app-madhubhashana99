@@ -13,12 +13,19 @@
   
   /* Add this CSS to your stylesheet */
 .pagination .page-item.active .page-link {
-    background: rgba(51, 7, 79, 1);
-    color: #fff; 
+    border-color: rgba(188, 0, 109, 1);
+    background-color: transparent !important;
+    color: rgba(188, 0, 109, 1); 
+  }
+
+  .pagination .page-item .page-link {
+    border-color: rgba(188, 0, 109, 1);
+    background-color: transparent !important;
+    color: rgba(188, 0, 109, 1); 
   }
   
   .pagination .page-item .page-link.current-page {
-    color: rgba(51, 7, 79, 1) !important; 
+    color: rgba(188, 0, 109, 1) !important; 
   }
   
   .pagination .page-link {
@@ -30,10 +37,10 @@
   }
   
   .pagination .page-link svg {
-    fill: rgba(51, 7, 79, 1) !important; 
+    fill:rgba(188, 0, 109, 1) !important; 
   }
   
   .pagination .page-link:hover svg {
-    fill: rgba(51, 7, 79, 1) !important;
+    fill:rgba(188, 0, 109, 1) !important;
   }
   
